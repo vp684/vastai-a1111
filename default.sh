@@ -6,7 +6,7 @@
 
 ### Edit the following arrays to suit your workflow
 
-DISK_GB_REQUIRED=20
+DISK_GB_REQUIRED=24
 
 EXTENSIONS=(
     "https://github.com/Mikubill/sd-webui-controlnet"
@@ -33,10 +33,10 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/5637"
     "https://civitai.com/api/download/models/203506"
     "https://civitai.com/api/download/models/182689"
-    "https://civitai.com/api/download/models/208032" #Johannes Vermeer
-    "https://civitai.com/api/download/models/107366"#3D rendering style
-    "https://civitai.com/api/download/models/8339?type=Model&format=SafeTensor&size=full&fp=fp16" # Arcane Style LoRA
-    "https://civitai.com/api/download/models/205139" # pinup
+    "https://civitai.com/api/download/models/208032" 
+    "https://civitai.com/api/download/models/107366"
+    "https://civitai.com/api/download/models/8339" 
+    "https://civitai.com/api/download/models/205139" 
     "https://civitai.com/api/download/models/146600" 
     
 )
