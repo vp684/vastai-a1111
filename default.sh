@@ -6,7 +6,7 @@
 
 ### Edit the following arrays to suit your workflow
 
-DISK_GB_REQUIRED=24
+DISK_GB_REQUIRED=21
 
 EXTENSIONS=(
     "https://github.com/Mikubill/sd-webui-controlnet"
@@ -23,8 +23,6 @@ EXTENSIONS=(
 
 CHECKPOINT_MODELS=(
     "https://civitai.com/api/download/models/129614"
-    "https://civitai.com/api/download/models/67566"
-
 )
 
 LORA_MODELS=(
@@ -55,6 +53,22 @@ ESRGAN_MODELS=(
 )
 
 CONTROLNET_MODELS=(
+    "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_lora_rank128_v11e_sd15_ip2p_fp16.safetensors"
+    "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/blob/main/control_lora_rank128_v11e_sd15_shuffle_fp16.safetensors"
+    "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/blob/main/control_lora_rank128_v11f1e_sd15_tile_fp16.safetensors"
+    "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/blob/main/control_lora_rank128_v11f1p_sd15_depth_fp16.safetensors"
+    "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/blob/main/control_lora_rank128_v11p_sd15_canny_fp16.safetensors"
+    "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/blob/main/control_lora_rank128_v11p_sd15_inpaint_fp16.safetensors"
+    "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/blob/main/control_lora_rank128_v11p_sd15_lineart_fp16.safetensors"
+    "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/blob/main/control_lora_rank128_v11p_sd15_mlsd_fp16.safetensors"
+    "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/blob/main/control_lora_rank128_v11p_sd15_normalbae_fp16.safetensors"
+    "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/blob/main/control_lora_rank128_v11p_sd15_openpose_fp16.safetensors"
+    "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/blob/main/control_lora_rank128_v11p_sd15_scribble_fp16.safetensors"
+    "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/blob/main/control_lora_rank128_v11p_sd15_seg_fp16.safetensors"
+    "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/blob/main/control_lora_rank128_v11p_sd15_softedge_fp16.safetensors"
+    "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/blob/main/control_lora_rank128_v11p_sd15s2_lineart_anime_fp16.safetensors"
+
+
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_canny-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_depth-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_hed-fp16.safetensors"
@@ -63,6 +77,9 @@ CONTROLNET_MODELS=(
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_openpose-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_scribble-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_seg-fp16.safetensors"
+    #https://huggingface.co/lllyasviel/control_v11p_sd15_openpose/resolve/main/diffusion_pytorch_model.fp16.safetensors
+    #"https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1e_sd15_tile.pth"
+
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_canny-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_color-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_depth-fp16.safetensors"
